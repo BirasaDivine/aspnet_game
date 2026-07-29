@@ -1,7 +1,7 @@
 
 namespace aspnet_gameapi.Models;
 
-public class Game
+public class Genre
 {
     public int Id {get; set; }
     public required string  Name {get; set;}
