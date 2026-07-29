@@ -1,0 +1,49 @@
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+
+# Publish output
+[Pp]ublish/
+*.Publish.xml
+
+# ASP.NET specific
+appsettings.Development.json
+appsettings.Local.json
+*.pubxml
+
+# Environment / secrets — never commit these
+*.env
+secrets.json
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
