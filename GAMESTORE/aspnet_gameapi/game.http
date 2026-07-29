@@ -1,1 +1,18 @@
-GET  http://localhost:5198
+GET  http://localhost:5198/games
+
+###
+
+GET  http://localhost:5198/games/1
+
+###
+
+
+POST http://localhost:5198/games
+Content-Type:  application/json
+
+{
+    "name": "Super Mario" ,
+    "genre": "Platformer" ,
+    "price ": 59.99 ,
+    "releaseDate": "2023-10-20"
+}
